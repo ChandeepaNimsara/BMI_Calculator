@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+      <ImageView
+          android:layout_width="250dp"
+          android:layout_height="250dp"
+          android:src="@drawable/custom_pic"
+          android:gravity="center"
+          android:padding="10dp"
+          android:background="@color/cus_pic">
+      </ImageView>
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="vertical"
+     android:layout_weight="1"
+     android:weightSum="4">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:weightSum="8"
+         android:orientation="horizontal">
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="7">
+
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:hint="Age"
+                 android:textSize="25dp"
+                 android:inputType="number"
+                 android:id="@+id/age">
+             </EditText>
+         </LinearLayout>
+     </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:orientation="horizontal"
+             android:layout_weight="1"
+             android:weightSum="8">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="7">
+
+                 <EditText
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:hint="Height"
+                     android:textSize="25dp"
+                     android:inputType="numberDecimal"
+                     android:id="@+id/hei">
+                 </EditText>
+             </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:gravity="center">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="cm"
+                     android:textSize="25dp"
+                     android:gravity="center">
+
+                 </TextView>
+             </LinearLayout>
+         </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:orientation="horizontal"
+         android:layout_weight="1"
+         android:weightSum="8">
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="7">
+
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:hint="Weight"
+                 android:textSize="25dp"
+                 android:inputType="numberDecimal"
+                 android:id="@+id/wei">
+             </EditText>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="center">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="kg"
+                 android:textSize="25dp"
+                 android:gravity="center"
+                 >
+
+             </TextView>
+         </LinearLayout>
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1">
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="@string/btn_login_name"
+         android:textStyle="bold"
+         android:textSize="25dp"
+         android:backgroundTint="@color/btn_cal"
+         android:id="@+id/btn_cal">
+     </Button>
+     </LinearLayout>
+  </LinearLayout>
+ </LinearLayout>
+
+
+
+
+
+
