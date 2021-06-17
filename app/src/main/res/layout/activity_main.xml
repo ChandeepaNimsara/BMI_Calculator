@@ -48,7 +48,7 @@
              <EditText
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:hint="Age"
+                 android:hint="Ageeeeee"
                  android:textSize="25dp"
                  android:inputType="number"
                  android:id="@+id/age">
